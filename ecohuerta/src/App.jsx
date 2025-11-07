@@ -3,6 +3,7 @@ import './index.css'
 import Header from "./componet/Header";
 import Card from "./componet/Card";
 import Counter from "./componet/Counter";
+import Footer from "./componet/Footer";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,8 @@ function App() {
       </section>
 
       <Counter />
+
+      <footer />
     </main>
   )
 }
